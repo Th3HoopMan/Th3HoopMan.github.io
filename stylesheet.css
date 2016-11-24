@@ -1,22 +1,28 @@
 body {
   background: #060A3D; }
 
-#titleBlock {
-  margin: 150px 0 100px; }
+p {
+  color: #D3D3D3; }
 
-#titleName {
+.display-1, .display-2, .display-3 {
   text-align: center;
-  padding: 50px 0px;
   font-family: 'Playfair Display SC', serif;
   -webkit-text-fill-color: #060A3D;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #AA912E; }
 
+#titleBlock {
+  margin: 150px 0 100px; }
+
+#titleName {
+  text-align: center;
+  padding: 50px 0px; }
+
 #titleOptions {
+  text-align: center;
   margin: auto;
-  width: 50%;
-  text-align: center; }
+  width: 50%; }
   #titleOptions h4 {
     font-family: 'Antic Slab', serif;
     display: inline-block;
@@ -41,5 +47,27 @@ body {
     height: 100px;
     width: 100px;
     visibility: hidden; }
+
+#aboutBlock #aboutHeader {
+  font-size: 4em; }
+#aboutBlock #aboutQuote {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center; }
+  #aboutBlock #aboutQuote .aboutParen {
+    font-size: 3em;
+    vertical-align: top;
+    color: #AA912E;
+    font-family: 'Playfair Display SC', serif;
+    display: inline-block; }
+  #aboutBlock #aboutQuote h5 {
+    font-family: 'Antic Slab', serif;
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    display: inline-block;
+    color: #D3D3D3; }
 
 /*# sourceMappingURL=stylesheet.css.map */
