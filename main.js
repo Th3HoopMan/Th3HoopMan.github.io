@@ -16,6 +16,7 @@ var flashingArrow;
 
   $("#titleAbout").mouseleave(function(){
        clearInterval(flashingArrow);
+       $("#titleArrow1").css("visibility", "hidden");
   });
 
   $("#titleProjects").mouseenter(function(){
@@ -32,6 +33,7 @@ var flashingArrow;
 
   $("#titleProjects").mouseleave(function(){
        clearInterval(flashingArrow);
+       $("#titleArrow2").css("visibility", "hidden");
   });
 
   $("#titleContact").mouseenter(function(){
@@ -47,5 +49,6 @@ var flashingArrow;
 
   $("#titleContact").mouseleave(function(){
        clearInterval(flashingArrow);
+       $("#titleArrow3").css("visibility", "hidden");
   });
 });
