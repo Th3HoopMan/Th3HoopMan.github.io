@@ -1,0 +1,45 @@
+body {
+  background: #060A3D; }
+
+#titleBlock {
+  margin: 150px 0 100px; }
+
+#titleName {
+  text-align: center;
+  padding: 50px 0px;
+  font-family: 'Playfair Display SC', serif;
+  -webkit-text-fill-color: #060A3D;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #AA912E; }
+
+#titleOptions {
+  margin: auto;
+  width: 50%;
+  text-align: center; }
+  #titleOptions h4 {
+    font-family: 'Antic Slab', serif;
+    display: inline-block;
+    color: #AA912E;
+    padding: 0 10px; }
+  #titleOptions h4:hover {
+    text-decoration: underline; }
+  #titleOptions .titleDividers:hover {
+    text-decoration: none; }
+
+#titleIcons {
+  margin: auto;
+  margin-top: 75px;
+  width: 95%; }
+  #titleIcons img {
+    margin: auto;
+    height: 150px;
+    width: 150px; }
+  #titleIcons .titleArrow {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    visibility: hidden; }
+
+/*# sourceMappingURL=stylesheet.css.map */
