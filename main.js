@@ -20,7 +20,6 @@ var flashingArrow;
   });
 
   $("#titleProjects").mouseenter(function(){
-    $("#titleArrow2").css("visibility", "visible");
     flashingArrow = setInterval(function(){
     // toggle the class every five second
     $("#titleArrow2").css("visibility", "visible");
